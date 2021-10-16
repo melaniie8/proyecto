@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    background-color: lawngreen;
+    padding: 10px;
+    flex-wrap:row wrap;
+    justify-content:center;
+
+}
+.flex-container div{
+    background-color: lightcoral;
+    margin:5px;
+    padding:10px;
+    width: 80px;
+    /*
+    order:;
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+/*
+    
+}
