@@ -3,10 +3,12 @@
 *{
     padding: 0px;
     margin: 0px;
+    @media
 }
 
 body{
     font-family: sans-serif;
+    
 }
 
 .header{
@@ -174,7 +176,7 @@ body{
 .conteiner-principal{
     display: flex;
     margin: 10px;
-    width:50px ;
+    width:10%;
     height: 400px;
     margin-right: 200px;
     margin-left: 15px;
@@ -208,22 +210,19 @@ transform: scale(1.1);
 .foto5:hover{
     transform: scale(1.1);
 }
-.gafas1{
-    display: flex;
-    width: 250px;
-    margin: 20px;
-    border-style: solid;
-}
 
-.gafas2{
-    display: flex;
-    position:absolute;
-    width: 250px;
-    right: 20px;
-    top: 745px;
-    border-style: solid;
-}
 
+
+.container{
+    display: flex;
+    margin: 10px;
+    width:10%;
+    height: 400px;
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-top: 210px;
+
+}
 
 .titulo4{
     color: palevioletred;
@@ -262,3 +261,33 @@ transform: scale(1.1);
 
 }
 
+.accesorios{
+    display: flex;
+    background-color: rgb(185, 185, 185);
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;;
+    margin-right: 585px;
+    margin-left:480px;
+    margin-top: 25px;
+}
+
+.container2 img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 60px;
+    width: 20%;
+
+}
+
+.container3 img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: 50px 400px;
+
+}
+.container3{
+    margin-top:-1060px;
+}
